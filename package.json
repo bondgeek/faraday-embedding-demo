@@ -1,0 +1,31 @@
+{
+  "name": "@fdy/faraday-embedding-demo",
+  "version": "1.0.0",
+  "description": "How to embed Faraday in your app.",
+  "main": "src/index.ts",
+  "scripts": {
+    "development": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faradayio/faraday-embedding-demo.git"
+  },
+  "author": "Eric Kidd <eric.kidd@faraday.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faradayio/faraday-embedding-demo/issues"
+  },
+  "homepage": "https://github.com/faradayio/faraday-embedding-demo#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.0"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/koa": "^2.11.3",
+    "prettier": "^2.0.5",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  }
+}
