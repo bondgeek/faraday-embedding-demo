@@ -27,7 +27,7 @@ app.use(async (ctx) => {
   </head>
   <body>
     <h1>Embedded Faraday Demo</h1>
-    <iframe src="http://dcbe4a380894.ngrok.io/#fdy_token=${token}"></iframe>
+    <iframe src="https://embed.faraday.io/#fdy_token=${token}"></iframe>
   </body>
 </html>`;
 });
