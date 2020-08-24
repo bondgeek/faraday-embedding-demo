@@ -11,7 +11,7 @@ app.use(async (ctx) => {
   const token = signFaradayAuthToken({
     issuer: "https://acme.example.com/",
     privateKey,
-    accountId: "8bfac1e5-6f2a-4d58-83bf-9d8b4000a2b0",
+    accountId: "wine",
   });
 
   ctx.body = `<!DOCTYPE html>
